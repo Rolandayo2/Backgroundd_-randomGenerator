@@ -1,0 +1,27 @@
+/* Reset default margin and padding for all elements */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for the entire webpage body */
+body {
+  background-color: #283faa;  /* Background color set to a deep blue */
+  height: 100vh;             /* Full viewport height */
+  display: grid;             /* Use CSS Grid for layout */
+  place-items: center;       /* Center content both horizontally and vertically */
+}
+
+/* Style for buttons on the page */
+button {
+  font-family: 'Poppins', sans-serif;  /* Set the font family for the button text */
+  font-size: 20px;                      /* Set the font size to 20 pixels */
+  padding: 20px 45px;                   /* Apply padding to the button */
+  background-color: transparent;        /* Transparent background */
+  border: 5px solid #ffffff;            /* White border with thickness 5px */
+  color: #ffffff;                       /* White text color */
+  letter-spacing: 1.5px;               /* Add letter spacing for text */
+  border-radius: 50px;                 /* Rounded corners, making it a circle */
+  cursor: pointer;                     /* Change cursor to pointer on hover */
+  outline: none;                       /* Remove default focus outline */
+}
